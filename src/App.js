@@ -6,7 +6,7 @@ import Sidebar from './Components/sidebar'
 import Body from './Components/Body'
 
 
-let test = prompt("Hello, welcome to our page. Enter your name:", " ")
+prompt("Hello, welcome to our page. Enter your name:", " ")
 
 const carts = () => {
   alert('Welcome to our shop')
