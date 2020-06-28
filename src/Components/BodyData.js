@@ -13,7 +13,7 @@ const BodyData = ({item, image}) =>{
         <div class="card-body" style={{textAlign:'center'}}>
           <h6 class="card-title" style={{fontFamily:'Montserrat'}}>{item}</h6>
           <h6 style={{textAlign:'center'}}><small>1pc</small></h6>
-          <a href="#" class="btn btn-primary" style={{width:'100px', borderRadius:'20px', color:'red', fontFamily:'Montserrat', fontStyle:'bold'}}>Cart</a>
+          <button class="btn btn-primary" style={{width:'100px', borderRadius:'20px', color:'red', fontFamily:'Montserrat', fontStyle:'bold'}}>Cart</button>
         </div>
       </div>
     );
